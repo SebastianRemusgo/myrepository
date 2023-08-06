@@ -22,4 +22,3 @@ Route::controller(CursoController::class)->group(function(){
     Route::get('cursos/create', 'create');
     Route::get('cursos/{curso}', 'show');
 });
-
